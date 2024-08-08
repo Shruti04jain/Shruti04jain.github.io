@@ -8,7 +8,6 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    
     margin: 0;
     padding: 10px 0;
 }
@@ -116,6 +115,24 @@ form button {
 
 form button:hover {
     background-color: #0056b3;
+}
+
+/* Contact Icons Styling */
+.contact-icons {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icons a {
+    color: #333;
+    margin: 0 15px;
+    font-size: 2em;
+    transition: color 0.3s;
+}
+
+.contact-icons a:hover {
+    color: #007BFF;
 }
 
 /* Footer Styling */
