@@ -20,6 +20,10 @@ a {
 a:hover {
     color: #0056b3;
 }
+img {
+    width: 100%;
+    height: auto;
+}
 
 /* Header Styling */
 header {
@@ -95,27 +99,6 @@ form label {
     margin: 10px 0 5px;
 }
 
-form input, form textarea {
-    width: 100%;
-    max-width: 500px;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #007BFF;
-    color: #fff;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #0056b3;
-}
 
 /* Contact Icons Styling */
 .contact-icons {
@@ -126,8 +109,8 @@ form button:hover {
 
 .contact-icons a {
     color: #333;
-    margin: 0 15px;
-    font-size: 2em;
+    margin: 0 25px;
+    font-size: 4em;
     transition: color 0.3s;
 }
 
