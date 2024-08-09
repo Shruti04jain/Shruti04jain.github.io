@@ -3,64 +3,459 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional Portfolio</title>
+    <title>Data Science Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class = "page_hero" >
-            <img src  = "/1688039588859.png" alt = "About Me"
-            class = "page_hero">
-        <nav>
+        <nav class="navbar">
             <ul>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#current-role">Current Role</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                
             </ul>
         </nav>
-        <div class="header-content">
-            <h1>Shruti Jain</h1>
-            <p>Data Analytics Engineer</p>
-        </div>
+        <img src="header-image.jpg" alt="Header Image" class="header-img">
     </header>
+    <main>
+        <aside class="sidebar">
+            <div class="profile">
+                <img src="profile-image.jpeg" alt="Profile Image" class="profile-img">
+                <h1>Shruti Jain</h1>
+                <div class = "designation">
+                    <p>Data Analytics Engineer | Home Partners of America</p>
+                </div>
+            </div>
+            <nav class="social-links">
+                <a href="https://maps.google.com/?q=Your+Location" target="_blank"><i class="fas fa-map-marker-alt"></i> Chicago, IL</a>
+                <a href="https://github.com/Shruti04jain" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                <a href="https://www.linkedin.com/in/shruti-jain04/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="mailto:shrutijain04jobs@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                
+            </nav>
+        </aside>
+        <section class="content">
+            <div class="section" id="about-me">
+                <div class="about-me-container">
+                    <h2>About Me</h2>
+                    <div class="about-me-content">
+                        <p>Dynamic Data Analytics Engineer with over 2 years of experience in harnessing data analytics to drive business value in the real estate and technology sectors. 
+                            I specialize in developing dashboards, executing complex SQL queries, and delivering actionable insights. 
+                            My expertise includes statistical modeling, machine learning, and data visualization tools like Power BI and Tableau.
+                            I am proficient in Python, with a strong focus on object-oriented design and version control using Git.
+                            I develop custom modules for tasks requiring reproducibility or high repeatability. 
+                            My experience extends to cloud computing with AWS services, including Lambda, Redshift, and EC2. 
+                            This, combined with my knowledge of applied statistical methods and machine learning algorithms, positions me as a versatile data scientist capable of addressing a wide range of analytical challenges.
+                            Additionally, I excel in communication and relationship-building, enabling effective collaboration with non-technical stakeholders.</p>
+                    </div>
+                </div>
+            </div>
 
-    <section id="about" class="about-section">
-        <h2>About Me</h2>
-        <p>Experienced Data Analytics Engineer with a demonstrated history of working in the real estate industry. Skilled in data analysis, visualization, and business intelligence.</p>
-    </section>
+            
+            <div class="section" id="current-role">
+                <div class="current-role-container">
+                    <h2>Current Role</h2>
+                    <div class="current-role-details">
+                        <div class="role-card">
+                            <div class="role-header">
+                                <h3>Data Engineer</h3>
+                                <!-- <span class="role-company">Home Partners of America, Chicago, IL</span> -->
+                                 
+                            </div>
+                            <div class="role-content">
+                                <p>Home Partners of America (HPA), a portfolio company of Blackstone, is based in Chicago, IL, and specializes in rent-to-own single-family homes
+                                and traditional rentals across various markets in the United States. 
+                                My team collaborates closely with HPA's senior leadership to craft analytically-driven strategies that enhance resident satisfaction and success.
+                                Our primary focus is on optimizing the resident experience, continuously seeking opportunities within our lease operations to improve the quality of life for our residents. 
+                                Below are some key projects and their impact on the business:</p>
+                                <ul>
+                                    <li>
+                                       <p> Automated the creation of Asana tasks for rent collection calls by integrating Python scripts with Zoho and PMP APIs. Leveraged data extraction and transformation to streamline task management and improve operational efficiency. Developed a seamless process for real-time task updates and tracking,improving operational efficiency by 40%.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="role-skills">
+                            <h3>Skills Utilized</h3>
+                            <div class="skills-container">
+                                <div class="skill-card">
+                                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                                    <div class="skill-info">
+                                        <h4>SQL</h4>
+                                        <p>Expert in writing complex queries and optimizing databases.</p>
+                                    </div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-icon"><i class="fab fa-python"></i></div>
+                                    <div class="skill-info">
+                                        <h4>Python</h4>
+                                        <p>Proficient in data manipulation, analysis, and visualization.</p>
+                                    </div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                                    <div class="skill-info">
+                                        <h4>Data Visualization</h4>
+                                        <p>Skilled in creating insightful visual reports and dashboards.</p>
+                                    </div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-icon"><i class="fas fa-cogs"></i></div>
+                                    <div class="skill-info">
+                                        <h4>ETL Processes</h4>
+                                        <p>Experienced in designing and implementing ETL workflows.</p>
+                                    </div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                                    <div class="skill-info">
+                                        <h4>Cloud Platforms</h4>
+                                        <p>Knowledgeable in AWS and Azure for data storage and processing.</p>
+                                    </div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-icon"><i class="fas fa-lock"></i></div>
+                                    <div class="skill-info">
+                                        <h4>Data Security</h4>
+                                        <p>Understanding of best practices in data protection and compliance.</p>
+                                    </div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                                    <div class="skill-info">
+                                        <h4>Project Management</h4>
+                                        <p>Ability to manage data projects from initiation to completion.</p>
+                                    </div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-icon"><i class="fas fa-users"></i></div>
+                                    <div class="skill-info">
+                                        <h4>Team Collaboration</h4>
+                                        <p>Experience in working with cross-functional teams effectively.</p>
+                                    </div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-icon"><i class="fas fa-file-alt"></i></div>
+                                    <div class="skill-info">
+                                        <h4>Documentation</h4>
+                                        <p>Skilled in creating detailed documentation for data processes.</p>
+                                    </div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                                    <div class="skill-info">
+                                        <h4>Machine Learning</h4>
+                                        <p>Familiar with machine learning algorithms and models.</p>
+                                    </div>
+                                </div>
+                                <div class="skill-card">
+                                    <div class="skill-icon"><i class="fas fa-bolt"></i></div>
+                                    <div class="skill-info">
+                                        <h4>Data Performance</h4>
+                                        <p>Proficient in optimizing data processing and query performance.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
 
-    <section id="projects" class="projects-section">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Project Title 1</h3>
-            <p>Description of project 1.</p>
-        </div>
-        <div class="project">
-            <h3>Project Title 2</h3>
-            <p>Description of project 2.</p>
-        </div>
-        <!-- Add more projects as needed -->
-    </section>
+            <div class="section" id="projects">
+                <div class="projects-container">
+                    <h2>Projects</h2>
+                    <div class="projects-gallery">
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="data-science-project1.jpg" alt="Predictive Analytics Dashboard">
+                            </div>
+                            <div class="project-info">
+                                <h3>Predictive Analytics Dashboard</h3>
+                                <p class="project-description">Developed an interactive dashboard to predict customer churn using machine learning models.</p>
+                                <div class="project-details">
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Machine Learning</span>
+                                    <span class="tech-tag">Dash</span>
+                                </div>
+                                <a href="#" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="data-science-project2.jpg" alt="Sentiment Analysis Tool">
+                            </div>
+                            <div class="project-info">
+                                <h3>Sentiment Analysis Tool</h3>
+                                <p class="project-description">Created a tool to analyze sentiment from social media data using natural language processing techniques.</p>
+                                <div class="project-details">
+                                    <span class="tech-tag">NLP</span>
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">Twitter API</span>
+                                </div>
+                                <a href="#" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="data-science-project3.jpg" alt="Sales Forecasting Model">
+                            </div>
+                            <div class="project-info">
+                                <h3>Sales Forecasting Model</h3>
+                                <p class="project-description">Built a time series forecasting model to predict future sales trends and optimize inventory levels.</p>
+                                <div class="project-details">
+                                    <span class="tech-tag">Time Series</span>
+                                    <span class="tech-tag">R</span>
+                                    <span class="tech-tag">ARIMA</span>
+                                </div>
+                                <a href="#" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="data-science-project3.jpg" alt="Sales Forecasting Model">
+                            </div>
+                            <div class="project-info">
+                                <h3>Sales Forecasting Model</h3>
+                                <p class="project-description">Built a time series forecasting model to predict future sales trends and optimize inventory levels.</p>
+                                <div class="project-details">
+                                    <span class="tech-tag">Time Series</span>
+                                    <span class="tech-tag">R</span>
+                                    <span class="tech-tag">ARIMA</span>
+                                </div>
+                                <a href="#" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="data-science-project3.jpg" alt="Sales Forecasting Model">
+                            </div>
+                            <div class="project-info">
+                                <h3>Sales Forecasting Model</h3>
+                                <p class="project-description">Built a time series forecasting model to predict future sales trends and optimize inventory levels.</p>
+                                <div class="project-details">
+                                    <span class="tech-tag">Time Series</span>
+                                    <span class="tech-tag">R</span>
+                                    <span class="tech-tag">ARIMA</span>
+                                </div>
+                                <a href="#" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                        <div class="project-card">
+                            <div class="project-image">
+                                <img src="data-science-project4.jpg" alt="Customer Segmentation Analysis">
+                            </div>
+                            <div class="project-info">
+                                <h3>Customer Segmentation Analysis</h3>
+                                <p class="project-description">Performed clustering analysis to segment customers based on purchasing behavior and preferences.</p>
+                                <div class="project-details">
+                                    <span class="tech-tag">Clustering</span>
+                                    <span class="tech-tag">Python</span>
+                                    <span class="tech-tag">K-Means</span>
+                                </div>
+                                <a href="#" class="project-link">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
 
-    <section id="contact" class="contact-section">
-        <h2>Contact</h2>
-        <div class="contact-icons">
-            <a href="mailto:your-email@example.com" target="_blank">
-                <i class="fas fa-envelope"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/shruti-jain04/" target="_blank">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/your-username" target="_blank">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-        
-    </section>
 
-    <footer>
-        
-    </footer>
+
+            <div class="section" id="certificates">
+                <div class="certificates-container">
+                    <h2>Certificates</h2>
+                    <div class="certificates-gallery">
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="certificate-info">
+                                <h3>Tableau Certified</h3>
+                                <p class="certificate-description">Certification in Tableau, demonstrating expertise in data visualization and dashboard creation.</p>
+                                <a href="https://www.example.com/tableau-certificate" class="certificate-link" target="_blank">View Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fab fa-aws"></i>
+                            </div>
+                            <div class="certificate-info">
+                                <h3>AWS Certified Data Analytics - Specialty</h3>
+                                <p class="certificate-description">Expert-level certification demonstrating advanced knowledge of AWS data analytics services.</p>
+                                <a href="https://www.example.com/aws-certificate" class="certificate-link" target="_blank">View Certificate</a>
+                            </div>
+                        </div>
+                        <div class="certificate-card">
+                            <div class="certificate-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="certificate-info">
+                                <h3>Google Analytics Certified</h3>
+                                <p class="certificate-description">Certification in Google Analytics, showcasing proficiency in analyzing and interpreting web data.</p>
+                                <a href="https://www.example.com/google-analytics-certificate" class="certificate-link" target="_blank">View Certificate</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+
+
+            <div class="section" id="skills">
+                <div class="skills-container">
+                    <h2>Skills</h2>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Python</h3>
+                                <p>Expert in Python programming for data analysis, machine learning, and automation.</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-database"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>SQL</h3>
+                                <p>Proficient in SQL for database management, querying, and data manipulation.</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Data Visualization</h3>
+                                <p>Skilled in creating insightful visualizations using tools like Tableau and Matplotlib.</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Machine Learning</h3>
+                                <p>Experienced in building and deploying machine learning models and algorithms.</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-cloud"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>AWS</h3>
+                                <p>Knowledgeable in AWS services for cloud computing, data storage, and analytics.</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Deep Learning</h3>
+                                <p>Proficient in deep learning frameworks like TensorFlow and PyTorch.</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-network-wired"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Big Data Technologies</h3>
+                                <p>Experienced with Hadoop, Spark, and other big data frameworks.</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-lock"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Data Privacy</h3>
+                                <p>Understanding of data privacy principles and compliance regulations.</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Communication</h3>
+                                <p>Strong ability to communicate technical insights to non-technical stakeholders.</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Project Management</h3>
+                                <p>Skilled in managing data science projects, including planning and execution.</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="skill-info">
+                                <h3>Problem Solving</h3>
+                                <p>Exceptional problem-solving skills with a focus on innovative solutions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+            <div class="section" id="education">
+                <div class="education-container">
+                    <h2>Education</h2>
+                    <div class="education-list">
+                        <div class="education-item">
+                            <div class="education-info">
+                                <h3>Bachelor of Technology in Computer Science</h3>
+                                <p><strong>Institution:</strong> XYZ University</p>
+                                <p><strong>GPA:</strong> 3.8/4.0</p>
+                            </div>
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                        <div class="education-item">
+                            <div class="education-info">
+                                <h3>Master of Science in Business Analytics</h3>
+                                <p><strong>Institution:</strong> ABC College</p>
+                                <p><strong>GPA:</strong> 3.9/4.0</p>
+                            </div>
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+        </section>
+    </main>
+    <script src="scripts.js"></script>
 </body>
 </html>
